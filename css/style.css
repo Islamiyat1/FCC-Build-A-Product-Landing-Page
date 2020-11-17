@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(238,238,238);
+    font-family: sans-serif;
+}
+
+#header-img {
+    height: 5rem;
+    width: 5rem;
+    margin-left: -9rem;
+    margin-right: 26rem;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed;
+    background-color: rgb(238,238,238); */
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+}
+
+.li1 {
+    margin-left: 5rem;
+    margin-right: 5rem
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+#hero {
+    margin-top: 5rem;
+    margin-left: 29rem;
+}
+
+.h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+#email {
+    margin-left: 3.5rem;
+}
+
+button {
+    background-color: red;
+    margin-left: 6.5rem;
+    margin-top: 0.7rem;
+    padding: 0.7rem 2rem;
+}
