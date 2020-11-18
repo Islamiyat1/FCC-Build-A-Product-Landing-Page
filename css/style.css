@@ -15,13 +15,17 @@ body {
     margin-right: 26rem;
 }
 
-#header {
+
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* position: fixed;
-    background-color: rgb(238,238,238); */
-}
+    background-color: #eee;
+  }
 
 ul {
     display: flex;
@@ -32,6 +36,10 @@ ul {
 .li1 {
     margin-left: 5rem;
     margin-right: 5rem
+}
+
+#nav-bar{
+
 }
 
 .nav-link{
@@ -53,7 +61,7 @@ ul {
     margin-left: 3.5rem;
 }
 
-button {
+#submit {
     background-color: red;
     margin-left: 5.5rem;
     margin-top: 0.5rem;
@@ -159,12 +167,21 @@ footer {
   padding: 20px;
 }
 
+@media (max-width: 550px) {
+    #features .describe {
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      height: 150px;
+    }
+  }
+
 footer  ul {
   display: flex;
   justify-content: flex-end;
 }
 
-footer ul  li {
+footer ul li {
   padding: 0 10px;
 }
 
@@ -175,3 +192,8 @@ footer  span {
   font-size: 0.9em;
   color: #444;
 }
+
+@media (max-width: 800px) {
+    #pricing {
+      flex-direction: column;
+    }
