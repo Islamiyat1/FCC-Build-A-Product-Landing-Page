@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: rgb(238,238,238);
     font-family: sans-serif;
@@ -50,7 +55,123 @@ ul {
 
 button {
     background-color: red;
-    margin-left: 6.5rem;
-    margin-top: 0.7rem;
-    padding: 0.7rem 2rem;
+    margin-left: 5.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    text-decoration-color: white;
+}
+
+#features .describe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+    margin-left: 10rem;
+
+}
+
+
+#features .icon{
+    margin-right: 5rem;
+    padding-bottom: -70px;
+    height: 40px;
+
+
+}
+
+
+p{
+   
+    margin-left: 7.5rem;
+}
+
+#how-it-works{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+
+  .product .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .product  h2 {
+    margin-top: 15px;
+  }
+  
+  .product  ol {
+    margin: 15px 0;
+  }
+  
+  .product ol  li {
+    padding: 5px 0;
+  }
+  
+  .product  button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #db1d1d;
+    font-weight: 400;
+  }
+  
+  .product button:hover {
+    background-color: rgb(206, 18, 18);
+    transition: background-color: 1s;
+  }
+
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+footer  ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul  li {
+  padding: 0 10px;
+}
+
+footer  span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
 }
