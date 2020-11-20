@@ -22,8 +22,8 @@ body {
 } 
 
 #header-img {
-    height: 10rem;
-    width: 5rem;
+    height: 15rem;
+    width: 15rem;
     margin-left: -9rem;
     margin-right: 26rem;
     
@@ -60,6 +60,11 @@ ul {
     color: black;
    
 }
+@media (max-width: 650px) {
+  nav > ul {
+    flex-direction: column;
+  }
+}
 
 li{
   list-style: none;
@@ -68,6 +73,12 @@ li{
 #hero {
     
     margin-left: 29rem;
+}
+@media (max-width: 650px) {
+  #hero {
+    margin-top: 120px;
+    text-align: center;
+  }
 }
 
 .h2 {
@@ -89,6 +100,7 @@ li{
     text-decoration-color: white;
 }
 
+
 #features .describe{
     display: flex;
     flex-direction: column;
@@ -101,11 +113,27 @@ li{
 }
 
 @media (max-width: 550px) {
-  #features .desc {
+  #features .describe {
     width: 100%;
     text-align: center;
     padding: 0;
     height: 150px;
+  }
+}
+
+@media (max-width: 550px) {
+  #features .describe {
+    width: 50%;
+    text-align: center;
+    padding: 0;
+    height: 150px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  #features {
+    margin-top: 0;
   }
 }
 
@@ -115,6 +143,12 @@ li{
     height: 40px;
 
 
+}
+
+@media (max-width: 550px) {
+  #features .icon {
+    display: none;
+  }
 }
 
 
