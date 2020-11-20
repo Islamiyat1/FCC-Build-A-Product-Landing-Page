@@ -7,18 +7,33 @@ body {
     background-color: rgb(238,238,238);
     font-family: sans-serif;
 }
+.logo img{
+  height:50px ;
+  width: 40px;
+
+}
+
+ @media (max-width: 650px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  } 
+} 
 
 #header-img {
-    height: 5rem;
+    height: 10rem;
     width: 5rem;
     margin-left: -9rem;
     margin-right: 26rem;
+    
+ 
 }
 
 
 header {
-    position: fixed;
-    top: 0;
+    
+    
     min-height: 75px;
     padding: 0px 20px;
     display: flex;
@@ -38,17 +53,20 @@ ul {
     margin-right: 5rem
 }
 
-#nav-bar{
 
-}
 
 .nav-link{
     text-decoration: none;
     color: black;
+   
+}
+
+li{
+  list-style: none;
 }
 
 #hero {
-    margin-top: 5rem;
+    
     margin-left: 29rem;
 }
 
@@ -59,11 +77,13 @@ ul {
 
 #email {
     margin-left: 3.5rem;
+    padding: 5px;
+    width: 40%;
 }
 
 #submit {
-    background-color: red;
-    margin-left: 5.5rem;
+    background-color: rgb(231, 9, 9);
+    margin-left: 10.5rem;
     margin-top: 0.5rem;
     padding: 0.5rem 0.5rem;
     text-decoration-color: white;
@@ -80,6 +100,14 @@ ul {
 
 }
 
+@media (max-width: 550px) {
+  #features .desc {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 150px;
+  }
+}
 
 #features .icon{
     margin-right: 5rem;
@@ -93,6 +121,11 @@ ul {
 p{
    
     margin-left: 7.5rem;
+}
+
+iframe{
+  height: 350px;
+  width: 700px;
 }
 
 #how-it-works{
@@ -144,6 +177,7 @@ p{
   .product  button {
     border: 0;
     margin: 15px 0;
+    padding: 10px;
     background-color: #db1d1d;
     font-weight: 400;
   }
@@ -176,24 +210,46 @@ footer {
     }
   }
 
+  footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+
 footer  ul {
   display: flex;
   justify-content: flex-end;
+  text-decoration: none;
+
 }
 
 footer ul li {
-  padding: 0 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-right: 25px;
+ 
+ 
 }
+ 
+.li2{
+  margin-right: 0.02em;
+}
+
+footer li a{
+  text-decoration:none;
+  color: #000;
+
+}
+
+ 
 
 footer  span {
-  margin-top: 5px;
   display: flex;
   justify-content: flex-end;
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #444;
+  padding: 0%;
+  margin-top: -25px;
+  margin-right: 20px;
 }
 
-@media (max-width: 800px) {
-    #pricing {
-      flex-direction: column;
-    }
