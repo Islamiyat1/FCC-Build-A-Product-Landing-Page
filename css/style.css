@@ -24,8 +24,9 @@ body {
 #header-img {
     height: 15rem;
     width: 15rem;
-    margin-left: -9rem;
+    margin-left: -7rem;
     margin-right: 26rem;
+    margin-top: -2rem;
     
  
 }
@@ -70,9 +71,14 @@ li{
   list-style: none;
 }
 
+.container{
+  margin-left: 100px;
+}
+
 #hero {
     
-    margin-left: 29rem;
+    margin-left: 20rem;
+    margin-top: -2rem;
 }
 @media (max-width: 650px) {
   #hero {
@@ -82,19 +88,20 @@ li{
 }
 
 .h2 {
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
+    margin-right:12rem ;
 }
 
 #email {
-    margin-left: 3.5rem;
+    margin-left: 10rem;
     padding: 5px;
     width: 40%;
 }
 
 #submit {
     background-color: rgb(231, 9, 9);
-    margin-left: 10.5rem;
+    margin-left: 18rem;
     margin-top: 0.5rem;
     padding: 0.5rem 0.5rem;
     text-decoration-color: white;
